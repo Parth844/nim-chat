@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+
+# private integrations: kept local, never pushed
+integrations/
+
+# caches (rebuilt automatically)
+integrations/.graph-cache.pkl
+integrations/.cache/
